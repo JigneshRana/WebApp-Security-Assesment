@@ -30,14 +30,14 @@ number=1
 sav_weightage = 0
 toal_applicable =0
 for recomendation in recomendations:
-    print("{}Category        : {}{}".format('\033[97m','\033[97m',recomendation[0]))
-    print("{}Question-{}      : {}{}".format('\033[97m',number,'\033[97m',recomendation[1]))
-    print("{}Weightage       : {}{}".format('\033[97m','\033[97m',recomendation[4] + " Out Of 1000"))
+    print("{}Category\t:{}{}".format('\033[97m','\033[97m',recomendation[0]))
+    print("{}Question-{}\t:{}{}".format('\033[97m',number,'\033[97m',recomendation[1]))
+    print("{}Weightage\t:{}{}".format('\033[97m','\033[97m',recomendation[4] + " Out Of 1000"))
     answer = input('\033[97m' + "Press Y or Enter to answer Yes or N for No?" + '\033[97m')
     
     if(answer == "Y" or answer == "y" or answer == ""):
-        print("{}recomendation   : {}{}".format('\033[93m','\033[93m',recomendation[2]))
-        print("{}Review          : {}{}".format('\033[93m','\033[93m',recomendation[5]))
+        print("{}recomendation\t:{}{}".format('\033[93m','\033[93m',recomendation[2]))
+        print("{}Review\t\t:{}{}".format('\033[93m','\033[93m',recomendation[5]))
         logstr("Review:"+recomendation[5])
         sav_weightage +=int(recomendation[4])
         toal_applicable +=1
@@ -51,7 +51,7 @@ for recomendation in recomendations:
 
 print("{}{}{}".format('\033[97m',dash*dash_n,'\033[97m'))
 print("{}severity weighting is   : {}{}".format('\033[91m','\033[91m',sav_weightage))
-print("{}Applicable recomendations are   : {}{}".format('\033[91m','\033[91m',toal_applicable))
+print("{}Applicable recomendations are   : {}{} out of {}".format('\033[91m','\033[91m',toal_applicable,total_questions))
 print("{}{}{}".format('\033[97m',dash*dash_n,'\033[97m')) 
 helpful = input('\033[97m' + "Is this helpful to you ?(Y|N|Type Your Suggation)" + '\033[97m')
 

@@ -1,0 +1,70 @@
+jignesh [2021-04-26 16:48:28] start
+jignesh [2021-04-26 16:52:40] Review:Manual
+jignesh [2021-04-26 16:52:40] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:09:44] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]n
+jignesh [2021-04-26 17:09:47] start
+jignesh [2021-04-26 17:09:56] Review:Manual
+jignesh [2021-04-26 17:09:56] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:10:39] start
+jignesh [2021-04-26 17:10:41] Review:Manual
+jignesh [2021-04-26 17:10:41] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:15:15] start
+jignesh [2021-04-26 17:15:26] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]
+jignesh [2021-04-26 17:15:42] start
+jignesh [2021-04-26 17:15:45] Review:Manual
+jignesh [2021-04-26 17:15:45] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:16:30] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]n
+jignesh [2021-04-26 17:16:33] start
+jignesh [2021-04-26 17:16:35] Review:Manual
+jignesh [2021-04-26 17:16:35] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:17:22] start
+jignesh [2021-04-26 17:17:24] Review:Manual
+jignesh [2021-04-26 17:17:24] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:21:15] Review:Auto,Manual
+jignesh [2021-04-26 17:21:15] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]Y
+jignesh [2021-04-26 17:22:20] start
+jignesh [2021-04-26 17:22:22] Review:Manual
+jignesh [2021-04-26 17:22:22] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:22:46] Review:Auto,Manual
+jignesh [2021-04-26 17:22:46] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]Y
+jignesh [2021-04-26 17:23:36] Review:Manual
+jignesh [2021-04-26 17:23:36] [Q3]Any File Name Or File Parameters Are Passed Through Any Request Parameters. 
+		 Like Get/Post/Request ? Or File Path Is Stored In Local Storage Or Cookie For Further Use? 
+	 eg: example.com/somefile.php?file=abc.txt[A]Y
+jignesh [2021-04-26 17:25:35] Review:Manual
+jignesh [2021-04-26 17:25:35] [Q4]File Read | Upload | Download Functionality Involves?[A]Y
+jignesh [2021-04-26 17:26:19] Review:Manual
+jignesh [2021-04-26 17:26:19] [Q5]credit/debit card details or any other payment card related card informaions are being used/processed/accessed?[A]Y
+jignesh [2021-04-26 17:27:28] Review:Manual
+jignesh [2021-04-26 17:27:28] [Q6]Is GDPR related Informations are being accessed/display without authentication or being being log?[A]Y
+jignesh [2021-04-26 17:27:45] Review:Manual
+jignesh [2021-04-26 17:27:45] [Q7]$_Get/$_Post/$_Request Is Used In Your Code Without Proper Validation?[A]Y
+jignesh [2021-04-26 17:28:30] Review:Manual
+jignesh [2021-04-26 17:28:30] [Q8]File/Module/Api Directly Accessible From The Web Browser Without Any Authentication Or Access Control?[A]Y
+jignesh [2021-04-26 17:29:56] Review:No
+jignesh [2021-04-26 17:29:56] [Q9]Credit Card Related Details, Session Id, Server Connection Details Are Being Logged?[A]Y
+jignesh [2021-04-26 17:29:59] Review:No
+jignesh [2021-04-26 17:29:59] [Q10]Any Api Is Created Which Exchange Data From The Production Environment[A]Y
+jignesh [2021-04-26 17:30:21] helpful:n
+jignesh [2021-04-26 17:31:41] start
+jignesh [2021-04-26 17:31:42] Review:Manual
+jignesh [2021-04-26 17:31:42] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-26 17:31:45] Review:Auto,Manual
+jignesh [2021-04-26 17:31:45] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]Y
+jignesh [2021-04-26 17:31:48] Review:Manual
+jignesh [2021-04-26 17:31:48] [Q3]Any File Name Or File Parameters Are Passed Through Any Request Parameters. 
+		 Like Get/Post/Request ? Or File Path Is Stored In Local Storage Or Cookie For Further Use? 
+		 eg: example.com/somefile.php?file=abc.txt[A]Y
+jignesh [2021-04-26 17:31:49] Review:Manual
+jignesh [2021-04-26 17:31:49] [Q4]File Read | Upload | Download Functionality Involves?[A]Y
+jignesh [2021-04-26 17:31:50] [Q5]credit/debit card details or any other payment card related card informaions are being used/processed/accessed?[A]n
+jignesh [2021-04-26 17:31:52] [Q6]Is GDPR related Informations are being accessed/display without authentication or being being log?[A]n
+jignesh [2021-04-26 17:31:53] Review:Manual
+jignesh [2021-04-26 17:31:53] [Q7]$_Get/$_Post/$_Request Is Used In Your Code Without Proper Validation?[A]Y
+jignesh [2021-04-26 17:31:54] Review:Manual
+jignesh [2021-04-26 17:31:54] [Q8]File/Module/Api Directly Accessible From The Web Browser Without Any Authentication Or Access Control?[A]Y
+jignesh [2021-04-26 17:31:54] Review:No
+jignesh [2021-04-26 17:31:54] [Q9]Credit Card Related Details, Session Id, Server Connection Details Are Being Logged?[A]Y
+jignesh [2021-04-26 17:31:54] Review:No
+jignesh [2021-04-26 17:31:54] [Q10]Any Api Is Created Which Exchange Data From The Production Environment[A]Y
+jignesh [2021-04-26 17:33:43] helpful:y

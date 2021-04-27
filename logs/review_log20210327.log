@@ -1,0 +1,19 @@
+jignesh [2021-03-27 09:02:08] start
+jignesh [2021-03-27 10:22:24] start
+jignesh [2021-03-27 10:22:42] Review:Manual
+jignesh [2021-03-27 10:22:42] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-03-27 10:22:56] Review:Auto,Manual
+jignesh [2021-03-27 10:22:56] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]Y
+jignesh [2021-03-27 10:23:06] Review:Manual
+jignesh [2021-03-27 10:23:06] [Q3]Any File Name Or File Parameters Are Passed Through Any Request Parameters Like Get/Post/Request ? Or File Path Is Stored In Local Storage Or Cookie For Further Use?[A]Y
+jignesh [2021-03-27 10:23:09] Review:Manual
+jignesh [2021-03-27 10:23:09] [Q4]File Read | Upload | Download Functionality Involves?[A]Y
+jignesh [2021-03-27 10:23:12] [Q5]credit/debit card details or any other payment card related card informaions are being used/processed/accessed?[A]n
+jignesh [2021-03-27 10:23:13] [Q6]Is GDPR related Informations are being accessed/display without authentication or being being log?[A]n
+jignesh [2021-03-27 10:23:16] [Q7]$_Get/$_Post/$_Request Is Used In Your Code Without Proper Validation?[A]n
+jignesh [2021-03-27 10:23:20] [Q8]File/Module/Api Directly Accessible From The Web Browser Without Any Authentication Or Access Control?[A]n
+jignesh [2021-03-27 10:23:23] Review:No
+jignesh [2021-03-27 10:23:23] [Q9]Credit Card Related Details, Session Id, Server Connection Details Are Being Logged?[A]Y
+jignesh [2021-03-27 10:23:25] Review:No
+jignesh [2021-03-27 10:23:25] [Q10]Any Api Is Created Which Exchange Data From The Production Environment[A]Y
+jignesh [2021-03-27 10:23:37] helpful:Y

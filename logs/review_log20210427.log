@@ -1,0 +1,35 @@
+jignesh [2021-04-27 13:58:50] start
+jignesh [2021-04-27 14:11:15] start
+jignesh [2021-04-27 14:13:03] Review:Manual
+jignesh [2021-04-27 14:13:03] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]Y
+jignesh [2021-04-27 14:14:51] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]n
+jignesh [2021-04-27 14:16:10] Review:Manual
+jignesh [2021-04-27 14:16:10] [Q3]Any File Name Or File Parameters Are Passed Through Any Request Parameters. 
+		 Like Get/Post/Request ? Or File Path Is Stored In Local Storage Or Cookie For Further Use? 
+		 eg: example.com/somefile.php?file=abc.txt[A]Y
+jignesh [2021-04-27 14:17:52] Review:Manual
+jignesh [2021-04-27 14:17:52] [Q4]File Read | Upload | Download Functionality Involves?[A]Y
+jignesh [2021-04-27 14:18:35] Review:Manual
+jignesh [2021-04-27 14:18:35] [Q5]credit/debit card details or any other payment card related card informaions are being used/processed/accessed?[A]Y
+jignesh [2021-04-27 14:18:45] Review:Manual
+jignesh [2021-04-27 14:18:45] [Q6]Is GDPR related Informations are being accessed/display without authentication or being being log?[A]Y
+jignesh [2021-04-27 14:19:15] [Q7]$_Get/$_Post/$_Request Is Used In Your Code Without Proper Validation?[A]n
+jignesh [2021-04-27 14:19:53] [Q8]File/Module/Api Directly Accessible From The Web Browser Without Any Authentication Or Access Control?[A]n
+jignesh [2021-04-27 14:20:07] Review:No
+jignesh [2021-04-27 14:20:07] [Q9]Credit Card Related Details, Session Id, Server Connection Details Are Being Logged?[A]Y
+jignesh [2021-04-27 14:21:08] Review:No
+jignesh [2021-04-27 14:21:08] [Q10]Any Api Is Created Which Exchange Data From The Production Environment[A]Y
+jignesh [2021-04-27 14:22:34] helpful:its helping me to resolve problem, but not working on my pc.
+jignesh [2021-04-27 14:23:39] start
+jignesh [2021-04-27 14:23:50] [Q1]Is Scope Details Involves New File Or Files Or Folder? Or It Will Created Run Time?[A]n
+jignesh [2021-04-27 14:23:52] [Q2]Is There Any Library Or Code Used Which Is Provided By Someone Else Or Directly Downloaded From The Internet?[A]n
+jignesh [2021-04-27 14:23:55] [Q3]Any File Name Or File Parameters Are Passed Through Any Request Parameters. 
+		 Like Get/Post/Request ? Or File Path Is Stored In Local Storage Or Cookie For Further Use? 
+		 eg: example.com/somefile.php?file=abc.txt[A]n
+jignesh [2021-04-27 14:23:56] [Q4]File Read | Upload | Download Functionality Involves?[A]n
+jignesh [2021-04-27 14:23:56] [Q5]credit/debit card details or any other payment card related card informaions are being used/processed/accessed?[A]n
+jignesh [2021-04-27 14:23:56] [Q6]Is GDPR related Informations are being accessed/display without authentication or being being log?[A]n
+jignesh [2021-04-27 14:23:57] [Q7]$_Get/$_Post/$_Request Is Used In Your Code Without Proper Validation?[A]n
+jignesh [2021-04-27 14:23:57] [Q8]File/Module/Api Directly Accessible From The Web Browser Without Any Authentication Or Access Control?[A]n
+jignesh [2021-04-27 14:23:57] [Q9]Credit Card Related Details, Session Id, Server Connection Details Are Being Logged?[A]n
+jignesh [2021-04-27 14:23:58] [Q10]Any Api Is Created Which Exchange Data From The Production Environment[A]n
