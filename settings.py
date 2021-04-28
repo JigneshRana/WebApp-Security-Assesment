@@ -1,0 +1,1 @@
+options={"LogPath":"/home/jignesh/Script/phpScanner21/Capture21/logs/","Loguid":1000,"Loggid":1000}
