@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#Firewall blocking 
+#Firewall blocking rulese needs to add
 
 #sha256 converter 
 #https://passwordsgenerator.net/sha256-hash-generator/
