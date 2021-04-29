@@ -10,7 +10,7 @@ def logstr(string):
     dirname = settings.options["LogPath"]
     logfile_name = dirname+"review_log" + today.strftime("%Y%m%d") +".log"
     f = open(logfile_name, "a")
-    os.chmod(logfile_name, 0o777)
+    #os.chmod(logfile_name, 0o777)
     #uid = settings.options["Loguid"]
     #gid = settings.options["Loggid"]
     #os.chown(logfile_name, uid, gid)
