@@ -45,6 +45,7 @@ for recomendation in recomendations:
         logstr("[Q"+str(number)+"]"+recomendation[1]+"[A]Y")
     
     else:
+        print("")
         logstr("[Q"+str(number)+"]"+recomendation[1]+"[A]"+answer)
     
     number +=1
