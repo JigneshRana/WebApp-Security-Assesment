@@ -51,8 +51,8 @@ for recomendation in recomendations:
     number +=1
 
 print("{}{}{}".format('\033[97m',dash*dash_n,'\033[97m'))
-print("{}severity weighting is   : {}{}".format('\033[91m','\033[91m',sav_weightage))
-print("{}Applicable recomendations are   : {}{} out of {}".format('\033[91m','\033[91m',toal_applicable,total_questions))
+print("{}severity weighting is   : {}{} (This is for log purpose currenlty.)".format('\033[91m','\033[91m',sav_weightage))
+print("{}Applicable recomendations  : {}{} out of {}. If value > 0 then go for security review".format('\033[91m','\033[91m',toal_applicable,total_questions))
 print("{}{}{}".format('\033[97m',dash*dash_n,'\033[97m')) 
 helpful = input('\033[97m' + "Is this helpful to you ?(Y|N|Type Your Suggation)" + '\033[97m')
 
