@@ -12,6 +12,7 @@ from functions import *
 #print(a)
 dash = '---'
 dash_n = 40
+ans_list = []
 
 print("");
 print(dash*dash_n)
@@ -19,7 +20,7 @@ print('\033[96m')
 print("Welcome To The Security Recomendation Questionnaire.")
 print("This Is The Self Assessment Guide Line For Web Application Vulnerability. Which Helps You To Take Further Actions.")
 print("There are total " + str(len(recomendations))+ " Questions, Please Answer them in Y|N")
-print("Version:1.0 March2021")
+print("Version:1.1 June2021")
 print('\033[96m')
 print(dash*dash_n)
 print("");
@@ -43,6 +44,8 @@ for recomendation in recomendations:
         toal_applicable +=1
         print("")
         logstr("[Q"+str(number)+"]"+recomendation[1]+"[A]Y")
+        str_ans_str  = "Q-"+str(number)+"-"+recomendation[0]+":Y "
+        ans_list.append(str_ans_str)
     
     else:
         print("")
@@ -50,10 +53,21 @@ for recomendation in recomendations:
     
     number +=1
 
+sr_string = ","
+sr_string = sr_string.join(ans_list)
+
+print("{}Share the summery section on Ticket. If Match is 0 you can go live without Security Review.{}".format('\033[97m','\033[97m'))
+
 print("{}{}{}".format('\033[97m',dash*dash_n,'\033[97m'))
-print("{}severity weighting is   : {}{} (This is for log purpose currenlty.)".format('\033[91m','\033[91m',sav_weightage))
-print("{}Applicable recomendations  : {}{} out of {}. If value > 0 then go for security review".format('\033[91m','\033[91m',toal_applicable,total_questions))
+print("Summery:")
+#print("{}severity weighting is   : {}{} (This is for log purpose currenlty.)".format('\033[91m','\033[91m',sav_weightage))
+#print("{}Applicable recomendations  : {}{} out of {}. If value > 0 then go for security review".format('\033[91m','\033[91m',toal_applicable,total_questions))
+print("{}Matched Count  : {}{} ".format('\033[91m','\033[91m',toal_applicable))
+print("{}Matched List   : {}{} ".format('\033[91m','\033[91m',sr_string))
 print("{}{}{}".format('\033[97m',dash*dash_n,'\033[97m')) 
+
+
+
 helpful = input('\033[97m' + "Is this helpful to you ?(Y|N|Type Your Suggation)" + '\033[97m')
 
 while helpful == "":
